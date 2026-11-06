@@ -31,7 +31,7 @@ a{color:var(--ac)}
 <p>Oyun hesap, kayıt ya da giriş istemez. Geliştiricinin kendine ait bir sunucusu yoktur. Ad, e-posta, telefon numarası, kesin konum, rehber, fotoğraf, mikrofon ya da kamera verisi toplamayız. Oyun yalnızca aşağıda anlatılan iki Google hizmetini kullanır: reklamlar için AdMob (bölüm 3) ve anonim oyun istatistikleri için Firebase Analytics (bölüm 4).</p>
 
 <h2>2. Yerel oyun kaydı</h2>
-<p>İlerlemeniz (seviye, envanter, ayarlar) yalnızca cihazınızda saklanır ve bize gönderilmez. Uygulamayı silmek bu kaydı siler. iOS'ta cihaz yedeklemesi (iCloud yedeği) uygulama verisini Apple hesabınız üzerinden yedekleyebilir; bu Apple'ın kontrolündedir. Oyun şu anda Game Center veya benzeri bir çevrimiçi hizmetle veri paylaşmaz; ileride eklenirse bu sayfa güncellenir.</p>
+<p>İlerlemeniz (seviye, envanter, ayarlar) cihazınızda saklanır ve bize gönderilmez. Uygulamayı silmek bu kaydı siler. iOS'ta cihaz yedeklemesi (iCloud yedeği) uygulama verisini Apple hesabınız üzerinden yedekleyebilir; bu Apple'ın kontrolündedir. iOS'ta Game Center'a giriş yaptıysanız oyun, kaydınızı (profil ve jeton cüzdanı) Apple'ın Game Center kayıtlı oyun hizmetiyle iCloud hesabınıza yedekler; böylece yeni cihazda kaldığınız yerden devam edebilirsiniz. Bu yedek Apple'da tutulur, bize gönderilmez; Game Center'dan çıkış yaparak ya da iCloud ayarlarından kapatabilirsiniz.</p>
 
 <h2>3. Reklamlar (Google AdMob)</h2>
 <p>Oyun, isteğe bağlı ödüllü reklamlar göstermek için Google Mobile Ads SDK'sını (AdMob) kullanır. Reklam izlemek zorunlu değildir. SDK, reklam sunmak, ölçmek ve dolandırıcılığı önlemek için cihazınızdan şu verileri otomatik toplayıp Google'a gönderebilir:</p>
@@ -82,7 +82,7 @@ a{color:var(--ac)}
 <p>The Game requires no account, sign-up or login. The developer operates no server of its own. We do not collect your name, email, phone number, precise location, contacts, photos, microphone or camera data. The Game uses only the two Google services described below: AdMob for ads (section 3) and Firebase Analytics for anonymous gameplay statistics (section 4).</p>
 
 <h2>2. Local save data</h2>
-<p>Your progress (level, inventory, settings) is stored only on your device and is not sent to us. Uninstalling the app deletes it. On iOS, device backups (iCloud Backup) may back up app data through your Apple account, which Apple controls. The Game currently does not share data with Game Center or any online service; if that changes, this page will be updated.</p>
+<p>Your progress (level, inventory, settings) is stored on your device and is not sent to us. Uninstalling the app deletes it. On iOS, device backups (iCloud Backup) may back up app data through your Apple account, which Apple controls. On iOS, if you are signed in to Game Center, the Game backs up your save (profile and token wallet) to your iCloud account through Apple's Game Center saved games, so you can continue on a new device. This backup is stored by Apple and is not sent to us; you can turn it off by signing out of Game Center or in your iCloud settings.</p>
 
 <h2>3. Ads (Google AdMob)</h2>
 <p>The Game uses the Google Mobile Ads SDK (AdMob) to show optional rewarded ads. Watching ads is never required. To serve and measure ads and to prevent fraud, the SDK may automatically collect and send the following to Google:</p>

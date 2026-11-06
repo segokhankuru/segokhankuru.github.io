@@ -1,2 +1,1 @@
-# Kayip Bolge - app-ads.txt
-# AdMob yayinci satiri buraya eklenecek (AdMob > Uygulamalar > app-ads.txt).
+google.com, pub-8249799356652453, DIRECT, f08c47fec0942fa0
